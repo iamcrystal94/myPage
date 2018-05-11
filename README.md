@@ -1,2 +1,3 @@
 # myPage
-a personal web page in react
+a personal web page in react.
+update ereryday!
