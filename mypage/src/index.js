@@ -1,8 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import registerServiceWorker from './registerServiceWorker';
+// import './index.css';
+// import Home from './component/home';
+// import TopMenu from 'component/topmenu';
+// import Footer from 'component/footer';
+import Nav from './test.js';
+
+ReactDOM.render(<Nav/>, document.getElementById('root'));
 registerServiceWorker();
