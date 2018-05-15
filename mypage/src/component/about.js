@@ -7,7 +7,7 @@ class About extends Component{
     render(){
         return (
         <div className="aboutme">
-            <header>--联系我--</header>
+            <header>--CONTACT ME--</header>
             <div> Email:  {" "}
                     <a href="mailto:782742370@qq.com" rel="noopener noreferrer">782742370@qq.com</a></div>
             <div> Github:  {" "}

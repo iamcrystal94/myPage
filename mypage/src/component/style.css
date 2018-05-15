@@ -1,26 +1,63 @@
 
 .aboutme {
-    /* border:1px solid red; */
-    /* position: absolute; */
-    /* width:100%; */
-    /* top:0; */
-    /* bottom:0; */
     padding-left:10%;
     padding-top:2%; 
-    color:#434343;
 }
-header{
+.aboutme header {
     /* text-align:center; */
-    font-size: 1.2em;
+    font-size: 25px;
     font-weight: bold;
     font-family:SimHei;
+    margin-bottom:10px;
 }
 
-a {
+.aboutme a {
     text-decoration:none;
-    color:#434343;
-    
+    color:#0099CC;
+    margin-left: 10px;
 }
 .aboutme a:hover {
-    color:#FFFFFF;
+    color:black;
+    text-decoration: underline;
+}
+.home{
+    margin-left:50px;
+    margin-top:20px;
+    height:1000px;
+}
+
+.home header{
+    font-size: 30px;
+    margin: 30px 0px;
+}
+.content{
+    margin-top:20px;
+}
+.title a {
+    text-decoration: none;
+    /* color:#009966; */
+    font-size: 20px;
+    color:#0099CC;
+}
+.title a:hover {
+    text-decoration: none;
+    /* color:#009966; */
+    font-size: 20px;
+    color: #0099CC;
+    color:black;
+    text-decoration: underline;
+}
+.date{
+    margin-top:5px;
+    font-size:12px;
+    font-family: Georgia;
+}
+.segment{
+    margin-top: 20px;
+}
+.split{
+    margin-top:15px;
+    width:700px;
+    height: 2px;
+    background-color:rgb(236, 234, 234);
 }

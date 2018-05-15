@@ -1,0 +1,26 @@
+.blog{
+    line-height: 30px;
+    margin-left: 50px;
+}
+.blog .title{
+    font-weight:bold;
+    font-size: 25px;
+}
+.blog .tag{
+    font-size: 12px;
+}
+.blog a {
+    text-decoration: none;
+    /* color:#009966; */
+    
+    color: #0099CC;
+}
+
+.blog a:hover {
+    text-decoration: none;
+    /* color:#009966; */
+   
+    color: #0099CC;
+    color: black;
+    text-decoration: underline;
+}
