@@ -1,10 +1,14 @@
 html {
-  background-color: #66CC99;
+  /* background-color: #66CC99; */
+  color:black;
 }
 body {
   margin: 0px;
   padding: 0px;
-  font-family:Helvetica, sans-serif, Georgia,SimHei;
+  /* font-family:Georgia,Helvetica,SimHei; */
+  /* sans-serif,Helvetica,Georgia,SimHei; */
+  font-family: "Lucide Grande", 'Lucida Sans Unicode', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, Aril,sans-serif;
+  font-size: 16px;
 }
 .root{
   margin: 0px;
@@ -19,7 +23,7 @@ body {
 }
 .nav{
   display: block;
-  margin-top: 0px;
+  margin: 10px 0 0 150px;
   padding-top: 0px;
 }
 .nav ul {
@@ -37,13 +41,11 @@ body {
   padding: 5px 10px;
   /* border:1px red solid; */
   border-radius: 5px;
-  font-size: 1.3em;
-}
-.nav li:hover{
-  background-color: #339933;
-  color:#fff;
+  font-size: 17px;
 }
 .nav a{
+  text-decoration: none;
+  color:black;
   margin:0;
   padding: 0;
   display: inline-block;
@@ -51,5 +53,19 @@ body {
   /* border: 1px solid blue; */
 }
 .nav a:hover{
-  color:white;
+  color : #FF9933;
+}
+.banner {
+  /* clear: both; */
+  /* border:1px solid green; */
+  margin:0;
+  padding: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #FF9933;
+}
+.panel {
+  width:700px;
+  /* border:1px solid red; */
+  margin:20px 0px 0px 250px;;  
 }
