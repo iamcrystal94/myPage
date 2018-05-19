@@ -7,7 +7,7 @@ class httpCode extends Component{
             <div className="blog">
             <div className="title">HTTP常见状态码</div>
             <div className="date">May 07,2018</div>
-            <div className="tag">Tags:<a href="https://zh.wikipedia.org/wiki/超文本传输协议" target="_blank">http</a></div>
+                <div className="tag">Tags:<a href="https://zh.wikipedia.org/wiki/超文本传输协议" target="_blank" rel="noopener noreferrer">http</a></div>
             <div> 
                  HTTP状态码负责表示客户端HTTP请求的返回结果、标记服务器端的处理是否正常、通知出现的错误等工作。它由RFC2616规范定义的，并得到RFC2518、RFC2817、RFC2295等的规范拓展。状态码如200 OK，以3位数字和原因短语组成.<br/>
        
@@ -58,8 +58,8 @@ class httpCode extends Component{
                503 Service Unavailable： 由于临时的服务器维护或者过载，服务器当前无法请求。状况是暂时的，并且将在一段时间之后回复。<br/>
        
        参考文献：<br/>
-        <a href="https://zh.wikipedia.org/wiki/HTTP%E7%8A%B6%E6%80%81%E7%A0%81" target="_blank">HTTP状态码-维基百科</a><br/>
-       <a href="https://book.douban.com/subject/25863515/" target="_blank">《图解HTTP》</a>译者：于均良,2014年<br/>
+        <a href="https://zh.wikipedia.org/wiki/HTTP%E7%8A%B6%E6%80%81%E7%A0%81" target="_blank" rel="noopener noreferrer">HTTP状态码-维基百科</a><br/>
+       <a href="https://book.douban.com/subject/25863515/" target="_blank" rel="noopener noreferrer">《图解HTTP》</a>译者：于均良,2014年<br/>
                 
             </div>
             </div>
